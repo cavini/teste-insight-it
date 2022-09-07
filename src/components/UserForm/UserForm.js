@@ -20,7 +20,6 @@ const UserForm = () => {
       setError(error.errors.pop());
     }
   };
-  console.log(error);
   return (
     <Row>
       <Col>
